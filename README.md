@@ -49,17 +49,17 @@ The api could be extend to other cryptocurrencies by navigating to controllers/c
     sumOverWindow : 0
   };
   
-  ...
+ ...
  const res  = await Promise.all([request(optionsBTC), request(optionsETH)])
 
  console.log(await getSMA(Number(res[0].price),varsBTC)
            ,await getSMA(Number(res[1].price),varsETH))
   
-  ```
+ ```
   
   And in the routes/api.js:
   
-```
+ ```
   res.send({"Last minute Bitcoin SMA": controller.varsBTC.lastSMA
            ,"Last minute Ethereum SMA": controller.varsETH.lastSMA})
  ```
