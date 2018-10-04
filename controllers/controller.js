@@ -18,12 +18,11 @@ module.exports = function(){
   };
 
   const varsBTC = {
-    // TODO => implement with a linked list to make time of removal from beginingmore efficient
+    // TODO => implement with a linked list to make time of removal from begining more efficient
     priceOverWindow : [],
     // Last calculated SMA to return to the endpoint
     lastSMA : null,
     sumOverWindow : 0
-    // When called with a new price sets lastSMA to a newSMA and returns it
   };
 
   const varsETH = {
@@ -50,7 +49,8 @@ module.exports = function(){
   }
   getNewSma();
 
- 
+  
+  // When called with a new price sets lastSMA to a newSMA and returns it
   async function getSMA(newPrice,vars){
     let newSMA = null;
     vars.priceOverWindow.push(newPrice);
