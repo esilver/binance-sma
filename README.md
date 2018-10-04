@@ -47,6 +47,9 @@ The api could be extend to other cryptocurrencies by navigating to controllers/c
     sumOverWindow : 0
   };
   
+  
+  
+  
  ...
  const res  = await Promise.all([request(optionsBTC), request(optionsETH)])
 
