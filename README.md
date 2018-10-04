@@ -6,7 +6,7 @@ An API that returns SMA over a minute for Bitcoin and Ethereum
 ### Prerequisites
 
 ```
-node.js with support for async/await
+Node.js with support for async/await
 ```
 
 ## Getting Started
