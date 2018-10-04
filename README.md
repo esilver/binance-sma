@@ -73,6 +73,5 @@ Add testing
 
 * **Eli Silver** - [esilver](https://github.com/esilver)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
