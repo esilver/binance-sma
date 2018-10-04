@@ -55,6 +55,13 @@ The api could be extend to other cryptocurrencies by navigating to controllers/c
 
  console.log(await getSMA(Number(res[0].price),varsBTC)
            ,await getSMA(Number(res[1].price),varsETH))
+             
+  
+  
+  
+ ...
+ module.exports.varsBTC = varsBTC;
+ module.exports.varsETH = varsETH;
   
  ```
   
