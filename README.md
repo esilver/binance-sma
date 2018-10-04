@@ -42,9 +42,7 @@ The api could be extend to other cryptocurrencies by navigating to controllers/c
   };
 
   const varsETH {
-    // TODO => implement with a linked list to make time of removal from begining more efficient
     priceOverWindow : [],
-    // Last calculated SMA to return to the endpoint
     lastSMA : null,
     sumOverWindow : 0
   };
@@ -67,7 +65,7 @@ The api could be extend to other cryptocurrencies by navigating to controllers/c
 
 ## TODO
 
-
+Add testing 
 
 
 
