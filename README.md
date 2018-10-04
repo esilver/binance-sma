@@ -76,7 +76,8 @@ The api could be extend to other cryptocurrencies by navigating to controllers/c
 ## TODO
 
 Add testing 
-
+Refactor the code to remove duplicates etc.
+Add more error handling 
 
 
 ## Authors
